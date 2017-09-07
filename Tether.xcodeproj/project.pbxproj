@@ -11,10 +11,11 @@
 		C828D3D41EC3C71800299F70 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C828D3D31EC3C71800299F70 /* GameScene.sks */; };
 		C828D3D61EC3C71800299F70 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C828D3D51EC3C71800299F70 /* Actions.sks */; };
 		C828D3D81EC3C71800299F70 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828D3D71EC3C71800299F70 /* GameScene.swift */; };
-		C828D3DA1EC3C71800299F70 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828D3D91EC3C71800299F70 /* GameViewController.swift */; };
 		C828D3DD1EC3C71800299F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C828D3DB1EC3C71800299F70 /* Main.storyboard */; };
 		C828D3DF1EC3C71800299F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C828D3DE1EC3C71800299F70 /* Assets.xcassets */; };
 		C828D3E21EC3C71800299F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C828D3E01EC3C71800299F70 /* LaunchScreen.storyboard */; };
+		C8BAC4B11EDF66F600FE39E3 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BAC4B01EDF66F600FE39E3 /* GameOverScene.swift */; };
+		C8BFD5BC1ECBB42B005B3487 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFD5BB1ECBB42B005B3487 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +24,12 @@
 		C828D3D31EC3C71800299F70 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C828D3D51EC3C71800299F70 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C828D3D71EC3C71800299F70 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C828D3D91EC3C71800299F70 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C828D3DC1EC3C71800299F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C828D3DE1EC3C71800299F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C828D3E11EC3C71800299F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C828D3E31EC3C71800299F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BAC4B01EDF66F600FE39E3 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		C8BFD5BB1ECBB42B005B3487 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 				C828D3D31EC3C71800299F70 /* GameScene.sks */,
 				C828D3D51EC3C71800299F70 /* Actions.sks */,
 				C828D3D71EC3C71800299F70 /* GameScene.swift */,
-				C828D3D91EC3C71800299F70 /* GameViewController.swift */,
 				C828D3DB1EC3C71800299F70 /* Main.storyboard */,
 				C828D3DE1EC3C71800299F70 /* Assets.xcassets */,
 				C828D3E01EC3C71800299F70 /* LaunchScreen.storyboard */,
 				C828D3E31EC3C71800299F70 /* Info.plist */,
+				C8BFD5BB1ECBB42B005B3487 /* GameViewController.swift */,
+				C8BAC4B01EDF66F600FE39E3 /* GameOverScene.swift */,
 			);
 			path = Tether;
 			sourceTree = "<group>";
@@ -148,7 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C828D3D81EC3C71800299F70 /* GameScene.swift in Sources */,
-				C828D3DA1EC3C71800299F70 /* GameViewController.swift in Sources */,
+				C8BFD5BC1ECBB42B005B3487 /* GameViewController.swift in Sources */,
+				C8BAC4B11EDF66F600FE39E3 /* GameOverScene.swift in Sources */,
 				C828D3D21EC3C71800299F70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				C828D3E81EC3C71800299F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
